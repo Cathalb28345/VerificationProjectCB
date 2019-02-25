@@ -38,10 +38,10 @@ public class Rate {
         this.normal = normalPeriods;
     }
 
-//    public Rate(CarParkKind student, CarParkStatus open, BigDecimal valueOf, BigDecimal valueOf2,
-//			ArrayList<Period> reducedPeriods, ArrayList<Period> normalPeriods) {
-//		// TODO Auto-generated constructor stub
-//	}
+    public Rate(CarParkKind student, CarParkStatus open, BigDecimal valueOf, BigDecimal valueOf2,
+			ArrayList<Period> reducedPeriods, ArrayList<Period> normalPeriods) {
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
      * Checks if two collections of periods are valid together
@@ -58,7 +58,6 @@ public class Rate {
         }
         return isValid;
     }
-
     /**
      * checks if a collection of periods is valid
      * @param list the collection of periods to check
